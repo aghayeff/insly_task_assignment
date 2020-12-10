@@ -2,8 +2,6 @@
 
 *INSTALLATION*
 
-Copy stuff to some location and run:
-
 ```
 git clone https://github.com/aghayeff/insly_task_assignment.git
 
