@@ -1,0 +1,19 @@
+{
+    "type": "project",
+    "authors": [
+        {
+            "name": "Rashad Aghayev",
+            "email": "hello@aghayev.net"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "App\\Controllers\\": "app/controllers/",
+            "App\\Models\\": "app/models/",
+            "App\\Lib\\": "app/lib/",
+            "App\\Repo\\": "app/repo/"
+        }
+    }
+}
