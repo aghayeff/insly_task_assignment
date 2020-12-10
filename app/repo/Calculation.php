@@ -23,7 +23,7 @@ class Calculation
 
     public function calculateForm() :void
     {
-        $basePricePercent = new BasePericePercent($this->formData['userDay'], $this->formData['userTime']);
+        $basePricePercent = new BasePricePercent($this->formData['userDay'], $this->formData['userTime']);
 
         //define base Price Percent by week days and time
         $this->basePricePercent = $basePricePercent::get();
