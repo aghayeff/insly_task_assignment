@@ -2,7 +2,7 @@
 
 namespace App\Repo;
 
-class BasePericePercent
+class BasePricePercent
 {
     private static $basePricePercent = 11;
     private $_time;
